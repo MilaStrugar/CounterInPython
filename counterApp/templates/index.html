@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello World! You have visited this site: {{request.session.visitcount}}</h1>
+    <h2>Click here if you want to delete the number of counts!</h2>
+    <a href="/reset"><button>Click</button></a>
+    <h2>Click here to increment by 2!</h2>
+    <a href="/increment"><button>Add 2!</button></a>
+</body>
+
+</html>
